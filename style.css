@@ -1,0 +1,47 @@
+h1 {
+    color: grey;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+}
+
+.primParagrafo{
+    font: 12pt "Avenir LT Std";
+}
+
+.segParagrafo {
+    font-weight: 750;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+}
+
+/*------ Barra de navegação ------*/
+.navBar{
+    background-color:#3F4E8C;
+    height: 80px;
+
+    margin: 0px;
+}
+
+.topHeader {
+    font: 12pt "Avenir LT Std";
+    padding-top: 30px;
+    vertical-align: center;
+    color: #fff;
+    font-weight: 750;
+}
+
+/*------ Conteúdo principal ------*/
+.imgFloat {
+    float: left;
+}
+
+.pFloat {
+    margin: 36px;
+    overflow: auto;
+}
