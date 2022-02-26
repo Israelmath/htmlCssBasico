@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NewPrev</title>
+    </head>
+    <body>
+        <!-- 
+            Atributos mais utilizados
+            action = Informa qual o método ou arquivo para onde a informação irá
+            method = Indica o método que será utilizado nessa requisição. GET, POST, PATCH
+        -->
+        <form action="" method="PATCH">
+            <!--
+                Atributos importantes
+                type = Informa o tipo da entrada.
+                name = A ideia é que esse atributo name seja identificado quando o backend pegar essa informação do HTML.
+                value = Nesse caso é o texto que aparecerá no botão
+
+                A tag 'br' é o diminutivo de 'break row'. Nesse caso ela é necessária porque o input não quebra a linha automaticamente
+            -->
+            <input type="text" name="nomeCliente"> <br>
+            <input type="checkbox" name="cbPython"> Gosta de Python <br>
+            <input type="date" name="dtNascimento"> Data de nascimento <br>
+            <input type="radio" name="rbSexo" value="masculino"> Masculino
+            <input type="radio" name="rbSexo" value="feminino"> Feminino
+            <input type="radio" name="rbSexo" value="outro"> Outro <br>
+            <input type="password" name="lePwd"> Senha <br>
+            <textarea rows="5" cols="20"> Informação extra</textarea> <br>
+            <input type="submit" value="Enviar informação">
+        </form>
+        <br><br><br><br><br>
+
+        <form action="" method="PATCH">
+            <input type="text" name="nomeCliente" value="Israel"> <br>
+            <input type="text" name="testeForm" placeholder="Testando htmlzinho..."> <br>
+            <input type="text" name="nomeMae" placeholder="Nome da mãe" required> <br>
+            <input type="text" name="readonly" placeholder="Campo somente leitura" readonly> <br>
+            <input type="text" name="disabled" placeholder="Campo desabilitado" disabled> <br>
+            <input type="submit" value="Enviar informação">
+        </form>
+    </body>
+</html>
