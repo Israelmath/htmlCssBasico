@@ -76,3 +76,84 @@ html {
     margin-bottom: 30px;
     font-size: 24px;
 }
+
+/*  --------- Serviços --------- */
+.servicesContainer {
+    max-width: 1200px;
+    padding: 30px 10%;
+    padding-bottom: 0;
+}
+
+.serviceBox {
+    width: 100%;
+    position: relative;
+    clear: both;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.serviceBox:last {
+    margin-bottom: 0px;
+}
+
+.serviceTitle {
+    width: 20%;
+    height: 150px;
+    background-color: #DDD;
+    float: left;
+    text-align: center;
+    line-height: 150px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.serviceTitle p {
+    padding-top: 35px;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.serviceDescription {
+    width: 80%;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.serviceDescription h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.serviceDescription p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#gerenciamentoTitle {
+    color: #2364AA;
+}
+
+#devTitle {
+    color: #3DA5D9;
+    
+}
+
+#designTitle {
+    color: #73BFB8;
+}
+
+#gerenciamentoBox {
+    background-color: #2364AA;
+}
+
+#devBox {
+    background-color: #3DA5D9;
+    
+}
+
+#designBox {
+    background-color: #73BFB8;
+}
