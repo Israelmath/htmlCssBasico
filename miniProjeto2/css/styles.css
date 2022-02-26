@@ -1,0 +1,124 @@
+/* -------- reset --------*/
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir LT Std, Arial;
+    color: #F0EBF8;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #333;
+}
+
+p, label {
+    color: #444;
+}
+
+input {
+    border: 1px solid transparent;
+    border-bottom: 1px solid #CCC;
+    padding: 10px 0px;
+}
+
+input[type=text], input[type=number], input[type=date], input[type=file] {
+    width: 400px;
+} 
+
+textarea {
+    padding: 10px 5px;
+    width: 400px;
+}
+
+/* ----------- Cabeçalho -----------*/
+.header {
+    height: 160px;
+    padding: 20px;
+    background-color: #673AB7;
+}
+
+.header h3 {
+    color: #FFF;
+    margin-top: 0px;
+}
+
+/* ----------- Container do formulário ------------*/
+.formContainer {
+    background-color: #FFF;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -62px;
+}
+
+/* ----------- Cabeçalho do formulário ------------*/
+.formHeader {
+    border-bottom: 1px solid #DFDFDF;
+    height: 45px;
+}
+
+.formHeader p{
+    color: #673AB7;
+    border-bottom: 2px solid #673AB7;
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-transform: uppercase;
+    line-height: 45px;
+}
+
+
+/* ----------- Corpo do formulário -----------*/
+
+.formBody {
+    padding: 30px;
+}
+
+.formTitle {
+    margin: 0px;
+}
+
+.requiredField {
+    color: #D80835;
+}
+
+.boxInput {
+    margin-bottom: 30px;
+}
+
+.block {
+    display: block;
+}
+
+.opcionalBox {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.opcionalList {
+    padding-left: 0px;
+}
+
+.opcionalList li {
+    list-style: none;
+}
+
+.btnSubmit {
+    background-color: #673AB7;
+    color: #FFF;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btnSubmit:hover{
+    background-color: #FFF;
+    color: #673AB7;
+    border: 2px solid #673AB7;
+}
