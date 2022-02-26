@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <div class="conainerPrincipal">
+            <div class="header">
+                <h3>Cadastre seu veículo para vendê-lo mais rápido</h3>
+            </div>
+            <div class="formContainer">
+                <div class="formHeader">
+                    <p>Cadastro</p>
+                </div>
+                <div class="formBody">
+                    <h1 class="formTitle">Venda seu veículo fácil</h1>
+                    <p>Descreva as características do seu veículo e marque todas as opcionais características que ele possui.</p>
+                    <form action="recebeFormulario.py" method="POST">
+                        <div class="boxInput">
+                            <label for="titulo">Título do anúncio <span class="requiredField">*</span></label>
+                            <input type="text" name="titulo" id="titulo" class="block" placeholder="Título do veículo" minlength="1" maxlength="30" required>
+                            <input type="submit" class="btnSubmit" value="Cadastrar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
