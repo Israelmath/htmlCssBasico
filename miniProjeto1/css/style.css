@@ -1,0 +1,63 @@
+html {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: darkslategray;
+}
+
+.container {
+    max-width: 1200px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 50px;
+    margin: 50px;
+    background-color: white;
+}
+
+.destaque {
+    font-weight: bold;
+}
+
+/* ------ Cabeçalho ------ */
+.cabecalho {
+    text-align: center;
+}
+
+.tituloPrincipal {
+    font-size: 40px;
+}
+
+.primeiroParagrafo {
+    font-style: italic;
+}
+
+/* ------ Conteúdo principal ------*/
+.imgDestaque {
+    position:relative;
+    margin-left: 15%;
+    margin-right: auto;
+    padding: 20px 50px;
+}
+
+.imgPadrao {
+    max-width: 600px;
+    max-height: 400px;
+}
+
+/* ------ Resumo ------*/
+.resumoContainer {
+    border-top: 1px dashed #000;
+    border-bottom: 1px dashed #000;
+    padding: 25px 0px;
+}
+
+.resumoContainer blockquote{
+    font: 14pt "Avenir LT Std";
+    font-weight: 750;
+    text-align: center;
+}
+
+.autorFrase {
+    font: 10pt "Avenir LT Std";
+    font-style: italic;
+    text-align: center;
+}
