@@ -1,0 +1,82 @@
+div, main {
+    background-color: #666;
+
+    p{
+        color: pink;
+    }
+}
+
+li{
+    color: purple;
+}
+
+ol{
+    > li{
+        color: blue;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: lightblue;
+    transition: .5s;
+    padding: 10px;
+    border: 1px solid lightblue;
+    display: block;
+    width: 110px;
+    text-align: center;
+
+    &:hover {
+        color: white;
+        background-color: lightblue;
+    }
+}
+
+.container {
+    background-color: #CCC;
+    padding: 20px;
+    margin: 20px;
+
+    &-content {
+        color: grey;
+    }
+}
+
+.btn {
+    text-align: center;
+    border: 1px solid blue;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: blue;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: white;
+        color: blue;
+    }
+
+    &-success {
+        background-color: green;
+        border: 1px solid green;
+
+        &:hover {
+            background-color: white;
+            color: green;
+        }
+    }
+
+    &-danger {
+        background-color: orange;
+        border: 1px solid orange;
+
+        &:hover {
+            background-color: white;
+            color: orange;
+        }
+    }
+
+
+
+}

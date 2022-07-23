@@ -1,0 +1,14 @@
+/* ---- lista de variáveis ---- */
+$primary-color: pink;
+
+
+
+
+%container-padrao {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: $primary-color;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,44 @@
+@import 'variables';
+
+/*
+    display: flex; - Inicia o flex no container.
+    flex-grow: int; - Define, dinamicamente, o tamanho do elemento, preenchendo todo o espaço do container.
+    flex-shrink: int; - Contrário ao grow.
+    flex-basis: int; - Dá uma "dica" para o tamanho do elemento. 
+    flex: <grow> <shrink> <basis>; - Agrupa algumas propriedades do flex;
+    flex-direction: <row/column>; - Define a direção dos elementos;
+    flex-order: int; - Define a ordenação dos elementos;
+    justify-content: <space-around/space-between...>; - Define alinhamento entre os elementos no eixo principal;
+    align-items: <start/end/....>; - Define alinhamento entre os elementos no eixo secundário;
+    align-self: <...>; - Define alinhamento de um item em específico;
+
+*/
+
+body {
+    background-color: #DDD;
+}
+
+
+
+.container {
+    @extend %container-padrao
+}
+
+.box {
+    height: 100px;
+    // width: 100px;
+    border: 1px solid lightsalmon;
+    border-radius: 5px;
+}
+
+.first {
+    order: 2;
+}
+
+.second {
+    order: 3;
+}
+
+.third {
+    order: 1;
+}
