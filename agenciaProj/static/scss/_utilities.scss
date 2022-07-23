@@ -32,3 +32,20 @@
     margin-top: 2rem;
     text-align: center;
 }
+
+%center-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+%card-hover {
+    .job-card-cover, .job-card-title, .job-card-description {
+        opacity: 0;
+    }
+
+    &:hover {
+        .job-card-cover, .job-card-title, .job-card-description {
+            opacity: 1;
+        }
+    }
+}
